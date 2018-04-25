@@ -16,7 +16,7 @@ public class DragQueenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drag_queen);
 
-        TopQueens topMovies = new TopQueens();
+        TopQueens topQueens = new TopQueens();
         ArrayList<Queen> queenList = topQueens.getList();
 
         TopQueensAdapter topQueensAdapter = new TopQueensAdapter(this, queenList);
@@ -26,8 +26,8 @@ public class DragQueenActivity extends AppCompatActivity {
     }
 
     public void onListItemClick(View listItem){
-        Queen movie = (Queen) listItem.getTag();
-        Log.d("name ", movie.getName());
+        Queen queen = (Queen) listItem.getTag();
+        Log.d("name ", queen.getName());
 
 
         Intent intent = new Intent(this, QueenDetailActivity.class);

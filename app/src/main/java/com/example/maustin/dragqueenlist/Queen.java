@@ -3,8 +3,7 @@ package com.example.maustin.dragqueenlist;
 
 import java.io.Serializable;
 
-public class Queen {
-// implements Serializable
+public class Queen  implements Serializable{
 
     private String name;
     private Integer season;
