@@ -24,7 +24,6 @@ public class TopQueensAdapter extends ArrayAdapter<Queen> {
         }
 
         Queen currentQueen = getItem(position);
-
         TextView ranking = listItemView.findViewById(R.id.nameTextViewID);
         ranking.setText(currentQueen.getName().toString());
 
