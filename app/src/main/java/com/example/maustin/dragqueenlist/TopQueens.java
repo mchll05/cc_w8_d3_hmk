@@ -8,16 +8,16 @@ public class TopQueens {
 
     public TopQueens() {
         list = new ArrayList<Queen>();
-        list.add(new Queen("Bianca del Rio", 6));
-        list.add(new Queen("Katya", 7));
-        list.add(new Queen("Trixie Mattel", 7));
-        list.add(new Queen("Jujubee", 2));
-        list.add(new Queen("Bob the Drag Queen", 8));
-        list.add(new Queen("Kimchi", 8));
-        list.add(new Queen("Latrice Royale", 4));
-        list.add(new Queen("Violet Chatchki", 7));
-        list.add(new Queen("Ginger Minj", 7));
-        list.add(new Queen("Ben DelaCreme", 6));
+        list.add(new Queen(1,"Bianca del Rio", "six"));
+        list.add(new Queen(2,"Katya", "seven"));
+        list.add(new Queen(3, "Trixie Mattel", "seven"));
+        list.add(new Queen(4,"Jujubee", "two"));
+        list.add(new Queen(5,"Bob the Drag Queen", "eight"));
+        list.add(new Queen(6,"Kimchi", "eight"));
+        list.add(new Queen(7,"Latrice Royale", "four"));
+        list.add(new Queen(8,"Violet Chachki", "seven"));
+        list.add(new Queen(9,"Ginger Minj", "seven"));
+        list.add(new Queen(10,"Ben DelaCreme", "six"));
     }
 
         public ArrayList<Queen> getList() {

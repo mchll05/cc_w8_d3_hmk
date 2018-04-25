@@ -21,7 +21,7 @@ public class DragQueenActivity extends AppCompatActivity {
 
         TopQueensAdapter topQueensAdapter = new TopQueensAdapter(this, queenList);
 
-        ListView queensListView = findViewById(R.id.queensListViewID);
+        ListView queensListView = (ListView) findViewById(R.id.queensListViewID);
         queensListView.setAdapter(topQueensAdapter);
     }
 
